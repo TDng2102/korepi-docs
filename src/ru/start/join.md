@@ -1,11 +1,13 @@
 ---
 title: Присоединение к серверу
-icon: circle-info
+icon: server
 category:
   - Гайд
 tag:
   - Начало
-author: QweRez
+author: 
+  name: "QweRez"
+  url: "https://github.com/qwerezon/"
 order: 1
 ---
 

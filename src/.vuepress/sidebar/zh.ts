@@ -4,9 +4,9 @@ export const zhSidebar = sidebar({
   "/zh/": [
     "",
     {
-      text: "案例",
+      text: "快速开始",
       icon: "laptop-code",
-      prefix: "demo/",
+      prefix: "start/",
       children: "structure",
     },
     {
@@ -15,6 +15,5 @@ export const zhSidebar = sidebar({
       prefix: "guide/",
       children: "structure",
     },
-    "slides",
   ],
 });

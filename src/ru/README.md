@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: Home
+title: Главная страница
 heroImage: /logo2.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
@@ -12,7 +12,7 @@ tagline: Мы предлагаем доступный, высококачест�
 actions:
   - text: Скачать
     icon: lightbulb
-    link: ./demo/
+    link: ./start/download
     type: primary
   - text: Быстрый старт
     link: ./start/

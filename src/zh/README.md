@@ -11,11 +11,11 @@ heroText: Korepi
 tagline: 我们提供价格适中、高质量且易于使用的 Korepi 产品！
 actions:
   - text: 下载
-    icon: lightbulb
-    link: ./demo/
+    icon: download
+    link: ./start/download
     type: primary
-  - text: 快速入门
-    link: ./guide/
+  - text: 快速开始
+    link: ./start/
   - text: 指南
     link: ./guide/
 
@@ -106,9 +106,9 @@ highlights:
       - title: 召唤 NPC
         icon: user
         details: 修复了召唤 NPC 的问题
-      - title: 与雕像互动
+      - title: 与神像互动
         icon: hands
-        details: 修复了雕像的问题
+        details: 修复了神像的问题
 
   - header: 我们的优势
     description: 探索一些我们的

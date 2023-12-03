@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar, ruNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar, ruSidebar } from "./sidebar/index.js";
+import { enNavbar, zhNavbar, ruNavbar, idNavbar, esNavbar, viNavbar } from "./navbar/index.js";
+import { enSidebar, zhSidebar, ruSidebar, idSidebar, esSidebar, viSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://korepi.com/",
@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.svg",
 
   repo: "Korepi/korepi-docs",
 
@@ -34,7 +34,7 @@ export default hopeTheme({
         editLink: "Edit this page on GitHub",
       },
     },
-  
+
     "/ru/": {
       // navbar
       navbar: ruNavbar,
@@ -48,6 +48,22 @@ export default hopeTheme({
 
       metaLocales: {
         editLink: "Изменить эту страницу на GitHub",
+      },
+    },
+
+    "/id/": {
+      // navbar
+      navbar: idNavbar,
+
+      // sidebar
+      sidebar: idSidebar,
+
+      footer: "Memberikan pengalaman bermain game terbaik untuk pemain PC di Genshin Impact.",
+
+      displayFooter: true,
+
+      metaLocales: {
+        editLink: "Edit halaman ini di GitHub",
       },
     },
     /**
@@ -69,6 +85,36 @@ export default hopeTheme({
         editLink: "在 GitHub 上编辑此页",
       },
     },
+    "/es/": {
+      // navbar
+      navbar: esNavbar,
+
+      // sidebar
+      sidebar: esSidebar,
+
+      footer: "Proporciona la mejor experiencia de juego para jugadores de PC en Genshin Impact.",
+
+      displayFooter: true,
+
+      metaLocales: {
+        editLink: "Edita esta pagina en GitHub",
+      },
+    },
+    "/vi/": {
+      // navbar
+      navbar: viNavbar,
+
+      // sidebar
+      sidebar: viSidebar,
+
+      footer: "Cung cấp trải nghiệm chơi game tốt nhất cho người chơi Genshin Impact trên PC.",
+
+      displayFooter: true,
+
+      metaLocales: {
+        editLink: "Chỉnh sửa trang này trên GitHub",
+      },
+    },
   },
 
   // encrypt: {
@@ -79,6 +125,9 @@ export default hopeTheme({
   // },
 
   plugins: {
+    feed:{
+      rss:true,
+    },
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
@@ -203,7 +252,7 @@ export default hopeTheme({
           {
             name: "Demo",
             short_name: "Demo",
-            url: "/demo/",
+            url: "/start/",
             icons: [
               {
                 src: "/assets/icon/guide-maskable.png",

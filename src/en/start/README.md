@@ -1,5 +1,5 @@
 ---
-title: Start
+title: Catalog
 icon: circle-info
 category:
   - Guide
@@ -15,3 +15,7 @@ author: QweRez
 - [Verification](verify.md)
 
 - [Obtaining the Fans Role](sign-in.md)
+
+- [Becoming a Sponsor](sponsor.md)
+
+- [Download](download.md)
